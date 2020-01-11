@@ -38,6 +38,9 @@
     <node concept="3YroCY" id="$nCSZRuHJH" role="3YroCV">
       <property role="TrG5h" value="Charisma" />
     </node>
+    <node concept="3YroCY" id="$nCSZRuHJO" role="3YroCV">
+      <property role="TrG5h" value="Blabla test" />
+    </node>
   </node>
 </model>
 
