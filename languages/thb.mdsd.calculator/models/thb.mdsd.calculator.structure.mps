@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -37,58 +36,28 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="5ZPKe8A016k">
-    <property role="EcuMT" value="6914644880429945236" />
-    <property role="TrG5h" value="Calculator" />
+  <node concept="1TIwiD" id="$nCSZRuoyt">
+    <property role="EcuMT" value="655172109533284509" />
+    <property role="TrG5h" value="Character" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZPKe8A016l" role="PzmwI">
+    <node concept="PrWs8" id="$nCSZRuoyu" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="5ZPKe8A0kip" role="1TKVEi">
-      <property role="IQ2ns" value="6914644880430023833" />
+    <node concept="1TJgyj" id="$nCSZRuyAO" role="1TKVEi">
+      <property role="IQ2ns" value="655172109533325748" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="inputField" />
+      <property role="20kJfa" value="attributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5ZPKe8A0khT" resolve="InputField" />
-    </node>
-    <node concept="1TJgyj" id="5ZPKe8A0mgQ" role="1TKVEi">
-      <property role="IQ2ns" value="6914644880430031926" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="outputField" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5ZPKe8A0mgx" resolve="OutputField" />
+      <ref role="20lvS9" node="$nCSZRuyAL" resolve="Attribute" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5ZPKe8A0khT">
-    <property role="EcuMT" value="6914644880430023801" />
-    <property role="TrG5h" value="InputField" />
+  <node concept="1TIwiD" id="$nCSZRuyAL">
+    <property role="EcuMT" value="655172109533325745" />
+    <property role="TrG5h" value="Attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZPKe8A0khU" role="PzmwI">
+    <node concept="PrWs8" id="$nCSZRuyAM" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5ZPKe8A0mgx">
-    <property role="EcuMT" value="6914644880430031905" />
-    <property role="TrG5h" value="OutputField" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5ZPKe8A0nS8" role="1TKVEi">
-      <property role="IQ2ns" value="6914644880430038536" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5ZPKe8A0u$Q">
-    <property role="EcuMT" value="6914644880430065974" />
-    <property role="TrG5h" value="InputFieldReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="5ZPKe8A0u$R" role="1TKVEi">
-      <property role="IQ2ns" value="6914644880430065975" />
-      <property role="20kJfa" value="field" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5ZPKe8A0khT" resolve="InputField" />
     </node>
   </node>
 </model>
