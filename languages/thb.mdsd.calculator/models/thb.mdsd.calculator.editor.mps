@@ -16,6 +16,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
+      <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -57,21 +58,24 @@
   </node>
   <node concept="24kQdi" id="$nCSZRuyMf">
     <ref role="1XX52x" to="rf8n:$nCSZRuoyt" resolve="Character" />
-    <node concept="3EZMnI" id="$nCSZRuyMh" role="2wV5jI">
-      <node concept="3F0ifn" id="$nCSZRuyMo" role="3EZMnx">
+    <node concept="3EZMnI" id="$nCSZRuG6t" role="2wV5jI">
+      <node concept="l2Vlx" id="$nCSZRuG6u" role="2iSdaV" />
+      <node concept="3F0ifn" id="$nCSZRuG6x" role="3EZMnx">
         <property role="3F0ifm" value="char" />
       </node>
-      <node concept="3F0A7n" id="$nCSZRuyMu" role="3EZMnx">
+      <node concept="3F0A7n" id="$nCSZRuG6A" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F2HdR" id="$nCSZRuyMC" role="3EZMnx">
-        <ref role="1NtTu8" to="rf8n:$nCSZRuyAO" resolve="attributes" />
-        <node concept="l2Vlx" id="$nCSZRuyMF" role="2czzBx" />
-        <node concept="pj6Ft" id="$nCSZRuyMK" role="3F10Kt">
+        <node concept="ljvvj" id="$nCSZRuG6E" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="l2Vlx" id="$nCSZRuyMk" role="2iSdaV" />
+      <node concept="3F2HdR" id="$nCSZRuG6L" role="3EZMnx">
+        <ref role="1NtTu8" to="rf8n:$nCSZRuyAO" resolve="attributes" />
+        <node concept="l2Vlx" id="$nCSZRuG6N" role="2czzBx" />
+        <node concept="pj6Ft" id="$nCSZRuG6T" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
